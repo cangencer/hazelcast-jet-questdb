@@ -1,0 +1,255 @@
+{
+  "namespace": "com.hazelcast.jet.examples.callhomes.generated",
+  "type": "record",
+  "name": "CallHome",
+  "fields": [
+    {
+      "name": "ip",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "name": "version",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "name": "pingTime",
+      "type": [
+        "null",
+        {
+          "type": "long",
+          "logicalType": "timestamp-micros"
+        }
+      ]
+    },
+    {
+      "name": "machineId",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "name": "enterprise",
+      "type": [
+        "null",
+        "boolean"
+      ]
+    },
+    {
+      "name": "license",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "name": "pardotId",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "name": "clusterId",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "name": "clusterSize",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "name": "clientsSize",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "name": "org",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "name": "city",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "name": "country",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "name": "lat",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "name": "long",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "name": "HDMemoryInGB",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "name": "connectedClientsCPP",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "name": "connectedClientsDotNet",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "name": "connectedClientsJava",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "name": "clusterUpTime",
+      "type": [
+        "null",
+        "long"
+      ]
+    },
+    {
+      "name": "nodeUptime",
+      "type": [
+        "null",
+        "long"
+      ]
+    },
+    {
+      "name": "osName",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "name": "osArch",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "name": "osVersion",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "name": "jvmName",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "name": "jvmVersion",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "name": "connectedClientsNodeJS",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "name": "connectedClientsPython",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "name": "state",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "name": "jetVersion",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "name": "mcVersion",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "name": "mcLicense",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "name": "connectedClientsGo",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "name": "oem",
+      "type": [
+        "null",
+        "boolean"
+      ]
+    },
+    {
+      "name": "groupVersion",
+      "type": [
+        "null",
+        "string"
+      ]
+    }
+  ]
+}
